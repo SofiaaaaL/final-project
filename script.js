@@ -5,16 +5,16 @@ document.addEventListener('DOMContentLoaded', function(event) {
 /* Get navbar */
   navbarElem = document.querySelector(".navbar");
 
-/* Background toggle on scroll */
-  window.onscroll = () => {
-    if (window.scrollY > window.innerHeight) {
-        navbarElem.style.backgroundColor = "#000";
-        navbarElem.style.mixBlendMode = "normal";
-    } else {
-        navbarElem.style.backgroundColor = "transparent";
-        navbarElem.style.mixBlendMode = "difference";
-    }
-  };
+// /* Background toggle on scroll */
+//   window.onscroll = () => {
+//     if (window.scrollY > window.innerHeight) {
+//         navbarElem.style.backgroundColor = "#000";
+//         navbarElem.style.mixBlendMode = "normal";
+//     } else {
+//         navbarElem.style.backgroundColor = "transparent";
+//         navbarElem.style.mixBlendMode = "difference";
+//     }
+//   };
 
   /// Init RELLAX for Parallax
   var rellax = new Rellax('.rellax');
